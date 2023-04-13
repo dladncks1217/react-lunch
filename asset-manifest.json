@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-lunch/static/css/main.ca3b224d.css",
+    "main.js": "/react-lunch/static/js/main.e59978be.js",
+    "static/js/787.6dac007d.chunk.js": "/react-lunch/static/js/787.6dac007d.chunk.js",
+    "index.html": "/react-lunch/index.html",
+    "main.ca3b224d.css.map": "/react-lunch/static/css/main.ca3b224d.css.map",
+    "main.e59978be.js.map": "/react-lunch/static/js/main.e59978be.js.map",
+    "787.6dac007d.chunk.js.map": "/react-lunch/static/js/787.6dac007d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca3b224d.css",
+    "static/js/main.e59978be.js"
+  ]
+}
