@@ -11,14 +11,11 @@ type RestaurantItemProps = {
 const Modal = (props: RestaurantItemProps) => {
   const closeModalByBackdrop = useCallback(() => {
     props.closeModal();
-  }, [props]);
+  }, []);
 
-  const closeModalByESC = useCallback(
-    (event: KeyboardEvent) => {
-      if (event.key === "Escape") props.closeModal();
-    },
-    [props]
-  );
+  const closeModalByESC = useCallback((event: KeyboardEvent) => {
+    if (event.key === "Escape") props.closeModal();
+  }, []);
 
   useEffect(() => {
     document.addEventListener("keydown", closeModalByESC);
