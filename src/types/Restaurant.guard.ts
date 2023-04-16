@@ -2,9 +2,7 @@ import { CATEGORIES, SORT_BY } from "../constants/constants";
 import { Category, SortBy } from "./Restaurant";
 
 export const isCategory = (category: string): category is Category => {
-  for (const c of CATEGORIES) {
-    if (c === category) return true;
-  }
+  if (CATEGORIES.includes(category)) return true;
   return false;
 };
 
