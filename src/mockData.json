@@ -1,6 +1,7 @@
 {
   "restaurants": [
     {
+      "id": 1,
       "category": "한식",
       "storeName": "피양콩할마니",
       "distance": 20,
@@ -8,6 +9,7 @@
       "link": "#"
     },
     {
+      "id": 2,
       "category": "한식",
       "storeName": "농민백암순대",
       "distance": 15,
@@ -15,6 +17,7 @@
       "link": "#"
     },
     {
+      "id": 3,
       "category": "한식",
       "storeName": "숯칼",
       "distance": 5,
@@ -22,6 +25,7 @@
       "link": "#"
     },
     {
+      "id": 4,
       "category": "중식",
       "storeName": "명정루",
       "distance": 10,
@@ -29,6 +33,7 @@
       "link": "#"
     },
     {
+      "id": 5,
       "category": "중식",
       "storeName": "친친",
       "distance": 5,
@@ -36,6 +41,7 @@
       "link": "#"
     },
     {
+      "id": 6,
       "category": "중식",
       "storeName": "용용선생",
       "distance": 10,
@@ -43,6 +49,7 @@
       "link": "#"
     },
     {
+      "id": 7,
       "category": "일식",
       "storeName": "백소정",
       "distance": 10,
@@ -50,6 +57,7 @@
       "link": "#"
     },
     {
+      "id": 8,
       "category": "일식",
       "storeName": "돈카라",
       "distance": 5,
@@ -57,6 +65,7 @@
       "link": "#"
     },
     {
+      "id": 9,
       "category": "일식",
       "storeName": "카츠젠",
       "distance": 15,
@@ -64,6 +73,7 @@
       "link": "#"
     },
     {
+      "id": 10,
       "category": "양식",
       "storeName": "맥도날드",
       "distance": 20,
@@ -71,6 +81,7 @@
       "link": "#"
     },
     {
+      "id": 11,
       "category": "양식",
       "storeName": "버거킹",
       "distance": 10,
@@ -78,6 +89,7 @@
       "link": "#"
     },
     {
+      "id": 12,
       "category": "양식",
       "storeName": "서브웨이",
       "distance": 5,
@@ -85,6 +97,7 @@
       "link": "#"
     },
     {
+      "id": 13,
       "category": "아시안",
       "storeName": "반포식스",
       "distance": 10,
@@ -92,6 +105,7 @@
       "link": "#"
     },
     {
+      "id": 14,
       "category": "아시안",
       "storeName": "쏭타이",
       "distance": 10,
@@ -99,6 +113,7 @@
       "link": "#"
     },
     {
+      "id": 15,
       "category": "아시안",
       "storeName": "포하이",
       "distance": 15,
@@ -106,6 +121,7 @@
       "link": "#"
     },
     {
+      "id": 16,
       "category": "기타",
       "storeName": "생활맥주",
       "distance": 10,
@@ -113,6 +129,7 @@
       "link": "#"
     },
     {
+      "id": 17,
       "category": "기타",
       "storeName": "마초갈비",
       "distance": 5,
@@ -120,6 +137,7 @@
       "link": "#"
     },
     {
+      "id": 18,
       "category": "기타",
       "storeName": "매드후라이치킨",
       "distance": 5,

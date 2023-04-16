@@ -1,6 +1,7 @@
 import { CATEGORIES, SORT_BY } from "../constants/constants";
 
 type Restaurant = {
+  id: number;
   category: Category;
   storeName: string;
   distance: number;
@@ -13,6 +14,7 @@ type Category = typeof CATEGORIES[number];
 type SortBy = typeof SORT_BY[number];
 
 type RestaurantJSON = {
+  id: number;
   category: string;
   storeName: string;
   distance: number;

@@ -8,9 +8,7 @@ const RestaurantList = (props: RestaurantListProps) => {
   return (
     <ul>
       {props.restaurants.map((restaurant) => {
-        return (
-          <RestaurantItem key={restaurant.storeName} restaurant={restaurant} />
-        );
+        return <RestaurantItem key={restaurant.id} restaurant={restaurant} />;
       })}
     </ul>
   );
