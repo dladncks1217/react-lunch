@@ -25,6 +25,8 @@ export const CATEGORIES = [
   "양식",
   "아시안",
   "기타",
-] as const;
+];
 
 export const SORT_BY = ["이름순", "거리순"] as const;
+
+export const LOCALSTORAGE_KEY_RESTAURANT = "restaurants";
