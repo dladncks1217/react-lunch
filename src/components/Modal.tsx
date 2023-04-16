@@ -24,7 +24,7 @@ const Modal = (props: RestaurantItemProps) => {
     };
   }, [closeModalByESC]);
 
-  return createPortal(
+  return (
     <>
       <div className="modal-backdrop" onClick={closeModalByBackdrop}></div>
       <div className="modal-container">
@@ -58,8 +58,7 @@ const Modal = (props: RestaurantItemProps) => {
           </button>
         </div>
       </div>
-    </>,
-    document.body
+    </>
   );
 };
 

@@ -5,23 +5,22 @@ import type { Restaurant } from "../types/Restaurant";
 
 type RestaurantItemProps = {
   restaurant: Restaurant;
+  showModal: () => void;
+  selectData: (data: Restaurant) => void;
 };
 
 const RestaurantItem = (props: RestaurantItemProps) => {
   const { storeName, category, distance, detail } = props.restaurant;
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const showModal = useCallback(() => {
-    setIsModalOpen(true);
-  }, []);
-
-  const closeModal = useCallback(() => {
-    setIsModalOpen(false);
-  }, []);
 
   return (
     <>
-      <li className="restaurant" onClick={showModal}>
+      <li
+        className="restaurant"
+        onClick={() => {
+          props.showModal();
+          props.selectData(props.restaurant);
+        }}
+      >
         <div className="restaurant__category">
           <img
             src={CATEGORY_ICONS[category]}
@@ -37,10 +36,6 @@ const RestaurantItem = (props: RestaurantItemProps) => {
           <p className="restaurant__description text-body">{detail}</p>
         </div>
       </li>
-
-      {isModalOpen && (
-        <Modal restaurant={props.restaurant} closeModal={closeModal} />
-      )}
     </>
   );
 };
